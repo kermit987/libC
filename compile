@@ -1,0 +1,2 @@
+nasm -f elf64 memset.S
+gcc memset.o test.c -g
